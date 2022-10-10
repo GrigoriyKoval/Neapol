@@ -64,3 +64,35 @@ a {
   font-size: 24px;
   line-height: 28px;
 }
+
+@media screen and (max-width: 992px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    margin-bottom: 65px;
+  }
+  .home__title {
+    font-size: 76px;
+    line-height: 86px;
+  }
+  .nav__item {
+    margin-right: 15px;
+  }
+  .nav__link {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home__title {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .nav__list {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
